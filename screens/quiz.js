@@ -1,11 +1,38 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, TouchableOpacity} from 'react-native';
 
 const Quiz = () => {
     return (
         <View>
-            <Text>This is quiz</Text>
+            <View style={styles.container}>
+                <Text style={styles.top}>Imagine this is a really cool question</Text>
+            </View>
+            <View>
+                <TouchableOpacity>
+                    <Text>Cool Option 1</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>Cool Option 1</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>Cool Option 1</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>Cool Option 1</Text>
+                </TouchableOpacity>
+            </View>
+            <View style={styles.bottom}>
+                <TouchableOpacity>
+                    <Text>SKIP</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>NEXT</Text>
+                </TouchableOpacity>
+
+            </View>
+
         </View>
+
     );
 }
 
