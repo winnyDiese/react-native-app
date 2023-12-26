@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "qui",
+    "slug": "qui",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "qui"
+}
